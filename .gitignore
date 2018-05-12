@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+*.pdb
+*.tlog
+*.idb
+*.log
+*.ipch
+*.opendb
+.vs/u16_converter/v15/Browse.VC.db
+*.ilk
