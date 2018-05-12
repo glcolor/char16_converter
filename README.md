@@ -42,6 +42,10 @@ options:
   -?, 打印帮助信息
 ```
 
+示例: u16_converter.exe -f=e:\code\testproject -d -p u16
+
+该命令将e:\code\testproject目录下所有C++源代码文件中的L""字符串替换为u16("")字符串。
+
 本程序使用Microsoft Visual Studio 2017 社区版开发。
 
 本程序的命令行解析使用了Hideyuki Tanaka的cmdline模块。
