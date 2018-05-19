@@ -246,6 +246,7 @@ namespace jx
 
 	Lexer::~Lexer()
 	{
+		if (m_Source) delete[] m_Source;
 	}
 
 	bool Lexer::Tokenize(const std::string& fileName)

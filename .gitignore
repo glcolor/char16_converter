@@ -38,3 +38,5 @@
 *.opendb
 .vs/u16_converter/v15/Browse.VC.db
 *.ilk
+*.iobj
+*.ipdb
